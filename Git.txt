@@ -1,6 +1,7 @@
 Source control ensures that multiple people can work on the same project/file from different locations.
 Source control allows for 1 version of the actual files that each developer can work on from different locations.
 Source control tool such as Git and Github can check for merge conflict, where different changes are made on the same file.
+A more realistic and better work flow when working in a team is with 'Branching' that is having branches of the 'Main Branch'. The 'Main Branch' is the 'Production-ready code' it is what the application should and would look like after everyone has worked on it. Any developer should not directly make changes to the 'Main Branch' as this would cause problems, hence 'Branching'.
 Git Commands:
 1. git clone <project_source> is used to clone a project from Github to a developer's machine.
 2. git status is used to check which files are 'untracked'.
@@ -9,3 +10,7 @@ Git Commands:
 5. git commit -m "message" is used to commit the 'tracked' files to github, '-m' is used to add a message along with the commit.
 6. git push is used to 'Push'/send the files to Github.
 7. git pull is used to 'Pull'/get the latest files from Github.
+8. git branch is used to check all the available branches.
+9. git branch <branch_name> is used to create a new branch.
+10. git checkout <branch_name> is used to switch to a different branch.
+11. 
