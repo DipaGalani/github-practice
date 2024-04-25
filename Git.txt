@@ -1,0 +1,8 @@
+Source control ensures that multiple people can work on the same project/file from different locations.
+Source control allows for 1 version of the actual files that each developer can work on from different locations.
+Source control tool such as Git and Github can check for merge conflict, where different changes are made on the same file.
+Git Commands:
+1. git clone <project_source> is used to clone a project from Github to a developer's machine.
+2. git status is used to check which files are 'untracked'.
+3. git add <file_name> is used to let git know that the file should be 'tracked'
+4. 
