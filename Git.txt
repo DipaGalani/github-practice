@@ -5,4 +5,7 @@ Git Commands:
 1. git clone <project_source> is used to clone a project from Github to a developer's machine.
 2. git status is used to check which files are 'untracked'.
 3. git add <file_name> is used to let git know that the file should be 'tracked'
-4. 
+4. git add . is a shortcut of command No.3 to automatically 'track' all the 'untracked' files.
+5. git commit -m "message" is used to commit the 'tracked' files to github, '-m' is used to add a message along with the commit.
+6. git push is used to 'Push'/send the files to Github.
+7. git pull is used to 'Pull'/get the latest files from Github.
